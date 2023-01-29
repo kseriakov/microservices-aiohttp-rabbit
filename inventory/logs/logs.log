@@ -1,0 +1,499 @@
+2023-01-29 05:24:08,400 inventory.rabbit.logs.config ERROR    Successful deleted one product from inventory
+2023-01-29 05:25:21,877 inventory.rabbit.logs.config ERROR Successful deleted one product from inventory
+2023-01-29 05:26:00,023 inventory.rabbit.logs.config ERROR   Successful deleted one product from inventory
+2023-01-29 05:27:25,691 inventory.rabbit.logs.config     ERROR   Successful deleted one product from inventory
+2023-01-29 05:42:48,280 __main__                        ERROR   ERRRRROR
+2023-01-29 05:44:10,925 inventory consumer              ERROR   ERRRRROR
+2023-01-29 05:44:58,452 inventory consumer        ERROR   ERRRRROR
+2023-01-29 05:48:19,602 inventory consumer        ERROR   ERRRRROR
+2023-01-29 05:49:15,381 inventory consumer        INFO    Successful deleted one product from inventory
+2023-01-29 05:49:15,382 inventory consumer        ERROR   ERRRRROR
+2023-01-29 05:51:11,137 inventory consumer        ERROR   ERRRRROR
+2023-01-29 05:52:09,808 inventory consumer        INFO    Successful deleted one product from inventory
+2023-01-29 05:52:09,808 inventory consumer        ERROR   ERRRRROR
+2023-01-29 07:30:02,860 inventory consumer        INFO    Successful deleted one product from inventory
+2023-01-29 08:04:31,586 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:04:31,589 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:04:33,298 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:04:33,300 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:04:35,098 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:04:35,100 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:04:36,839 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:04:36,841 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:04:38,976 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:04:38,978 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:04:41,875 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:04:41,877 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:04:46,350 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:04:46,352 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:04:54,046 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:04:54,049 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:05:08,129 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:05:08,131 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:06:03,339 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:06:03,341 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:06:04,969 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:06:04,972 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:06:06,777 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:06:06,779 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:06:08,607 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:06:08,610 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:06:10,725 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:06:10,735 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:06:13,753 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:06:13,756 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:06:18,281 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:06:18,284 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:06:26,013 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:06:26,015 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:06:41,293 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() done, defined at /var/www/inventory/rabbit/consumer.py:66> wait_for=<Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:06:41,295 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:07:09,132 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:07:09,135 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:07:10,915 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:07:10,917 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:07:12,573 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:07:12,575 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:07:14,265 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:07:14,267 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:07:21,437 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:07:21,439 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:07:23,124 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:07:23,127 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:07:55,941 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:07:55,943 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:08:03,250 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 08:08:03,252 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<InventoryConsumer.consumer_delete() running at /var/www/inventory/rabbit/consumer.py:67> wait_for=<Task pending name='Task-23' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 08:13:41,088 inventory consumer        ERROR   Error with InventoryConsumer
+Traceback (most recent call last):
+  File "/var/www/inventory/rabbit/consumer.py", line 106, in <module>
+    loop.run_until_complete(inventory_consumer.run_consumers())
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/var/www/inventory/rabbit/consumer.py", line 98, in run_consumers
+    await asyncio.gather(*tasks)
+  File "/var/www/inventory/rabbit/consumer.py", line 86, in consumer_add
+    self.on_message_add_product(),
+TypeError: InventoryConsumer.on_message_add_product() missing 1 required positional argument: 'message'
+2023-01-29 08:13:43,074 inventory consumer        ERROR   Error with InventoryConsumer
+Traceback (most recent call last):
+  File "/var/www/inventory/rabbit/consumer.py", line 106, in <module>
+    loop.run_until_complete(inventory_consumer.run_consumers())
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/var/www/inventory/rabbit/consumer.py", line 98, in run_consumers
+    await asyncio.gather(*tasks)
+  File "/var/www/inventory/rabbit/consumer.py", line 86, in consumer_add
+    self.on_message_add_product(),
+TypeError: InventoryConsumer.on_message_add_product() missing 1 required positional argument: 'message'
+2023-01-29 08:13:45,049 inventory consumer        ERROR   Error with InventoryConsumer
+Traceback (most recent call last):
+  File "/var/www/inventory/rabbit/consumer.py", line 106, in <module>
+    loop.run_until_complete(inventory_consumer.run_consumers())
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/var/www/inventory/rabbit/consumer.py", line 98, in run_consumers
+    await asyncio.gather(*tasks)
+  File "/var/www/inventory/rabbit/consumer.py", line 86, in consumer_add
+    self.on_message_add_product(),
+TypeError: InventoryConsumer.on_message_add_product() missing 1 required positional argument: 'message'
+2023-01-29 08:13:47,228 inventory consumer        ERROR   Error with InventoryConsumer
+Traceback (most recent call last):
+  File "/var/www/inventory/rabbit/consumer.py", line 106, in <module>
+    loop.run_until_complete(inventory_consumer.run_consumers())
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/var/www/inventory/rabbit/consumer.py", line 98, in run_consumers
+    await asyncio.gather(*tasks)
+  File "/var/www/inventory/rabbit/consumer.py", line 86, in consumer_add
+    self.on_message_add_product(),
+TypeError: InventoryConsumer.on_message_add_product() missing 1 required positional argument: 'message'
+2023-01-29 08:13:49,784 inventory consumer        ERROR   Error with InventoryConsumer
+Traceback (most recent call last):
+  File "/var/www/inventory/rabbit/consumer.py", line 106, in <module>
+    loop.run_until_complete(inventory_consumer.run_consumers())
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/var/www/inventory/rabbit/consumer.py", line 98, in run_consumers
+    await asyncio.gather(*tasks)
+  File "/var/www/inventory/rabbit/consumer.py", line 86, in consumer_add
+    self.on_message_add_product(),
+TypeError: InventoryConsumer.on_message_add_product() missing 1 required positional argument: 'message'
+2023-01-29 08:13:53,194 inventory consumer        ERROR   Error with InventoryConsumer
+Traceback (most recent call last):
+  File "/var/www/inventory/rabbit/consumer.py", line 106, in <module>
+    loop.run_until_complete(inventory_consumer.run_consumers())
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/var/www/inventory/rabbit/consumer.py", line 98, in run_consumers
+    await asyncio.gather(*tasks)
+  File "/var/www/inventory/rabbit/consumer.py", line 86, in consumer_add
+    self.on_message_add_product(),
+TypeError: InventoryConsumer.on_message_add_product() missing 1 required positional argument: 'message'
+2023-01-29 08:13:58,886 inventory consumer        ERROR   Error with InventoryConsumer
+Traceback (most recent call last):
+  File "/var/www/inventory/rabbit/consumer.py", line 106, in <module>
+    loop.run_until_complete(inventory_consumer.run_consumers())
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/var/www/inventory/rabbit/consumer.py", line 98, in run_consumers
+    await asyncio.gather(*tasks)
+  File "/var/www/inventory/rabbit/consumer.py", line 86, in consumer_add
+    self.on_message_add_product(),
+TypeError: InventoryConsumer.on_message_add_product() missing 1 required positional argument: 'message'
+2023-01-29 08:16:32,397 inventory consumer        INFO    Successful added one product to inventory
+2023-01-29 08:16:35,752 inventory consumer        INFO    Successful deleted one product from inventory
+2023-01-29 08:18:21,905 inventory consumer        INFO    Successful added one product to inventory
+2023-01-29 08:18:24,563 inventory consumer        INFO    Successful deleted one product from inventory
+2023-01-29 08:19:36,353 inventory consumer        INFO    Successful added one product to inventory
+2023-01-29 08:19:41,904 inventory consumer        INFO    Successful deleted one product from inventory
+2023-01-29 08:22:15,617 inventory consumer        INFO    Successful added one product (id = 4) to inventory
+2023-01-29 08:22:17,382 inventory consumer        INFO    Successful deleted one product (id = 4) from inventory
+2023-01-29 08:25:16,512 inventory consumer        INFO    Successful added one product (id = 4) to inventory
+2023-01-29 08:27:15,098 inventory consumer        INFO    Product (id = 12) does not exists in inventory
+2023-01-29 08:27:20,268 inventory consumer        INFO    Product (id = 12) does not exists in inventory
+2023-01-29 08:29:49,698 inventory consumer        INFO    Product (id = 12) does not exists in inventory. Operation adding failed
+2023-01-29 08:29:51,145 inventory consumer        INFO    Product (id = 12) does not exists in inventory. Operation deleting failed
+2023-01-29 10:41:06,353 inventory consumer        ERROR   Error with InventoryConsumer
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiormq/connection.py", line 405, in connect
+    reader, writer = await asyncio.open_connection(
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1070, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1054, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 963, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/local/lib/python3.10/asyncio/selector_events.py", line 501, in sock_connect
+    return await fut
+  File "/usr/local/lib/python3.10/asyncio/selector_events.py", line 541, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('172.28.0.3', 5672)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/inventory/rabbit/consumer.py", line 116, in <module>
+    loop.run_until_complete(inventory_consumer.run_consumers())
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/var/www/inventory/rabbit/consumer.py", line 108, in run_consumers
+    await asyncio.gather(*tasks)
+  File "/var/www/inventory/rabbit/consumer.py", line 72, in consumer_delete
+    await self._create_consumer(
+  File "/var/www/inventory/rabbit/consumer.py", line 42, in _create_consumer
+    async with self.channel_pool.acquire() as channel:
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 155, in __aenter__
+    self.item = await self.pool._get()
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 112, in _get
+    return await self._create_item()
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 100, in _create_item
+    item = await self.__constructor(*self.__constructor_args)
+  File "/var/www/inventory/rabbit/consumer.py", line 38, in get_channel
+    async with self.connection_pool.acquire() as connection:
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 155, in __aenter__
+    self.item = await self.pool._get()
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 112, in _get
+    return await self._create_item()
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 100, in _create_item
+    item = await self.__constructor(*self.__constructor_args)
+  File "/var/www/inventory/rabbit/consumer.py", line 35, in get_connection
+    return await connect_robust(self.rabbit_url)
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/robust_connection.py", line 292, in connect_robust
+    await connection.connect(timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/robust_connection.py", line 124, in connect
+    connection = await self.__connection_attempt(timeout)
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/robust_connection.py", line 79, in __connection_attempt
+    connection = await UnderlayConnection.make_connection(
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/abc.py", line 623, in make_connection
+    connection: aiormq.abc.AbstractConnection = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 408, in wait_for
+    return await fut
+  File "/usr/local/lib/python3.10/site-packages/aiormq/connection.py", line 836, in connect
+    await connection.connect(client_properties or {})
+  File "/usr/local/lib/python3.10/site-packages/aiormq/base.py", line 164, in wrap
+    return await self.create_task(func(self, *args, **kwargs))
+  File "/usr/local/lib/python3.10/site-packages/aiormq/abc.py", line 40, in __inner
+    return await self.task
+  File "/usr/local/lib/python3.10/site-packages/aiormq/connection.py", line 411, in connect
+    raise ConnectionError(*e.args) from e
+ConnectionError: [Errno 111] Connect call failed ('172.28.0.3', 5672)
+2023-01-29 10:41:06,373 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-24' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 10:41:06,375 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-22' coro=<InventoryConsumer.consumer_add() running at /var/www/inventory/rabbit/consumer.py:95> wait_for=<Task pending name='Task-24' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 10:41:08,211 inventory consumer        ERROR   Error with InventoryConsumer
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiormq/connection.py", line 405, in connect
+    reader, writer = await asyncio.open_connection(
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1070, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1054, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 963, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/local/lib/python3.10/asyncio/selector_events.py", line 501, in sock_connect
+    return await fut
+  File "/usr/local/lib/python3.10/asyncio/selector_events.py", line 541, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('172.28.0.3', 5672)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/inventory/rabbit/consumer.py", line 116, in <module>
+    loop.run_until_complete(inventory_consumer.run_consumers())
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/var/www/inventory/rabbit/consumer.py", line 108, in run_consumers
+    await asyncio.gather(*tasks)
+  File "/var/www/inventory/rabbit/consumer.py", line 72, in consumer_delete
+    await self._create_consumer(
+  File "/var/www/inventory/rabbit/consumer.py", line 42, in _create_consumer
+    async with self.channel_pool.acquire() as channel:
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 155, in __aenter__
+    self.item = await self.pool._get()
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 112, in _get
+    return await self._create_item()
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 100, in _create_item
+    item = await self.__constructor(*self.__constructor_args)
+  File "/var/www/inventory/rabbit/consumer.py", line 38, in get_channel
+    async with self.connection_pool.acquire() as connection:
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 155, in __aenter__
+    self.item = await self.pool._get()
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 112, in _get
+    return await self._create_item()
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 100, in _create_item
+    item = await self.__constructor(*self.__constructor_args)
+  File "/var/www/inventory/rabbit/consumer.py", line 35, in get_connection
+    return await connect_robust(self.rabbit_url)
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/robust_connection.py", line 292, in connect_robust
+    await connection.connect(timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/robust_connection.py", line 124, in connect
+    connection = await self.__connection_attempt(timeout)
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/robust_connection.py", line 79, in __connection_attempt
+    connection = await UnderlayConnection.make_connection(
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/abc.py", line 623, in make_connection
+    connection: aiormq.abc.AbstractConnection = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 408, in wait_for
+    return await fut
+  File "/usr/local/lib/python3.10/site-packages/aiormq/connection.py", line 836, in connect
+    await connection.connect(client_properties or {})
+  File "/usr/local/lib/python3.10/site-packages/aiormq/base.py", line 164, in wrap
+    return await self.create_task(func(self, *args, **kwargs))
+  File "/usr/local/lib/python3.10/site-packages/aiormq/abc.py", line 40, in __inner
+    return await self.task
+  File "/usr/local/lib/python3.10/site-packages/aiormq/connection.py", line 411, in connect
+    raise ConnectionError(*e.args) from e
+ConnectionError: [Errno 111] Connect call failed ('172.28.0.3', 5672)
+2023-01-29 10:41:08,230 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-24' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 10:41:08,232 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-22' coro=<InventoryConsumer.consumer_add() running at /var/www/inventory/rabbit/consumer.py:95> wait_for=<Task pending name='Task-24' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 10:41:10,141 inventory consumer        ERROR   Error with InventoryConsumer
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiormq/connection.py", line 405, in connect
+    reader, writer = await asyncio.open_connection(
+  File "/usr/local/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1070, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 1054, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 963, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/local/lib/python3.10/asyncio/selector_events.py", line 501, in sock_connect
+    return await fut
+  File "/usr/local/lib/python3.10/asyncio/selector_events.py", line 541, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('172.28.0.3', 5672)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/inventory/rabbit/consumer.py", line 116, in <module>
+    loop.run_until_complete(inventory_consumer.run_consumers())
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/var/www/inventory/rabbit/consumer.py", line 108, in run_consumers
+    await asyncio.gather(*tasks)
+  File "/var/www/inventory/rabbit/consumer.py", line 72, in consumer_delete
+    await self._create_consumer(
+  File "/var/www/inventory/rabbit/consumer.py", line 42, in _create_consumer
+    async with self.channel_pool.acquire() as channel:
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 155, in __aenter__
+    self.item = await self.pool._get()
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 112, in _get
+    return await self._create_item()
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 100, in _create_item
+    item = await self.__constructor(*self.__constructor_args)
+  File "/var/www/inventory/rabbit/consumer.py", line 38, in get_channel
+    async with self.connection_pool.acquire() as connection:
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 155, in __aenter__
+    self.item = await self.pool._get()
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 112, in _get
+    return await self._create_item()
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/pool.py", line 100, in _create_item
+    item = await self.__constructor(*self.__constructor_args)
+  File "/var/www/inventory/rabbit/consumer.py", line 35, in get_connection
+    return await connect_robust(self.rabbit_url)
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/robust_connection.py", line 292, in connect_robust
+    await connection.connect(timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/robust_connection.py", line 124, in connect
+    connection = await self.__connection_attempt(timeout)
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/robust_connection.py", line 79, in __connection_attempt
+    connection = await UnderlayConnection.make_connection(
+  File "/usr/local/lib/python3.10/site-packages/aio_pika/abc.py", line 623, in make_connection
+    connection: aiormq.abc.AbstractConnection = await asyncio.wait_for(
+  File "/usr/local/lib/python3.10/asyncio/tasks.py", line 408, in wait_for
+    return await fut
+  File "/usr/local/lib/python3.10/site-packages/aiormq/connection.py", line 836, in connect
+    await connection.connect(client_properties or {})
+  File "/usr/local/lib/python3.10/site-packages/aiormq/base.py", line 164, in wrap
+    return await self.create_task(func(self, *args, **kwargs))
+  File "/usr/local/lib/python3.10/site-packages/aiormq/abc.py", line 40, in __inner
+    return await self.task
+  File "/usr/local/lib/python3.10/site-packages/aiormq/connection.py", line 411, in connect
+    raise ConnectionError(*e.args) from e
+ConnectionError: [Errno 111] Connect call failed ('172.28.0.3', 5672)
+2023-01-29 10:41:10,160 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-22' coro=<InventoryConsumer.consumer_add() done, defined at /var/www/inventory/rabbit/consumer.py:94> wait_for=<Task pending name='Task-24' coro=<Connection.connect() running at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:405> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /usr/local/lib/python3.10/asyncio/tasks.py:720]>
+2023-01-29 10:41:10,162 asyncio                   ERROR   Task was destroyed but it is pending!
+task: <Task pending name='Task-24' coro=<Connection.connect() done, defined at /usr/local/lib/python3.10/site-packages/aiormq/connection.py:388> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.10/asyncio/futures.py:385, Task.task_wakeup()]> cb=[FutureStore.__on_task_done.<locals>.remover() at /usr/local/lib/python3.10/site-packages/aiormq/base.py:33, Task.task_wakeup()]>
+2023-01-29 11:07:18,099 aiohttp.access            INFO    172.20.0.11 [29/Jan/2023:11:07:18 +0000] "POST /products/17/inventory HTTP/1.1" 405 221 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:08:34,444 aiohttp.access            INFO    172.21.0.11 [29/Jan/2023:11:08:34 +0000] "POST /products/17/inventory HTTP/1.1" 405 221 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:08:54,576 aiohttp.access            INFO    172.21.0.11 [29/Jan/2023:11:08:54 +0000] "POST /products/17/inventory HTTP/1.1" 405 221 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:10:38,614 aiohttp.access            INFO    172.22.0.11 [29/Jan/2023:11:10:38 +0000] "PATCH /products/17/inventory HTTP/1.1" 200 165 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:10:44,499 aiohttp.access            INFO    172.22.0.11 [29/Jan/2023:11:10:44 +0000] "GET /products/1/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:10:44,502 aiohttp.access            INFO    172.22.0.11 [29/Jan/2023:11:10:44 +0000] "GET /products/2/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:10:44,503 aiohttp.access            INFO    172.22.0.11 [29/Jan/2023:11:10:44 +0000] "GET /products/3/inventory HTTP/1.1" 200 174 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:10:44,503 aiohttp.access            INFO    172.22.0.11 [29/Jan/2023:11:10:44 +0000] "GET /products/4/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:10:44,504 aiohttp.access            INFO    172.22.0.11 [29/Jan/2023:11:10:44 +0000] "GET /products/17/inventory HTTP/1.1" 200 174 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:11:05,763 aiohttp.access            INFO    172.22.0.11 [29/Jan/2023:11:11:05 +0000] "PATCH /products/18/inventory HTTP/1.1" 200 165 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:11:14,166 aiohttp.access            INFO    172.22.0.11 [29/Jan/2023:11:11:14 +0000] "GET /products/1/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:11:14,168 aiohttp.access            INFO    172.22.0.11 [29/Jan/2023:11:11:14 +0000] "GET /products/2/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:11:14,169 aiohttp.access            INFO    172.22.0.11 [29/Jan/2023:11:11:14 +0000] "GET /products/3/inventory HTTP/1.1" 200 174 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:11:14,169 aiohttp.access            INFO    172.22.0.11 [29/Jan/2023:11:11:14 +0000] "GET /products/4/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:11:14,170 aiohttp.access            INFO    172.22.0.11 [29/Jan/2023:11:11:14 +0000] "GET /products/17/inventory HTTP/1.1" 200 174 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:11:31,535 inventory consumer        INFO    Not updated product count (id = 18) in inventory
+2023-01-29 11:12:01,439 inventory consumer        INFO    Not updated product count (id = 18) in inventory
+2023-01-29 11:13:13,072 inventory consumer        INFO    Not updated product count (id = 18) in inventory
+2023-01-29 11:13:13,073 aiohttp.access            INFO    172.23.0.11 [29/Jan/2023:11:13:13 +0000] "PATCH /products/18/inventory HTTP/1.1" 404 208 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:14:58,120 inventory consumer        INFO    Not updated product count (id = 18) in inventory
+2023-01-29 11:14:58,121 aiohttp.access            INFO    172.24.0.11 [29/Jan/2023:11:14:58 +0000] "PATCH /products/18/inventory HTTP/1.1" 404 212 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:34:22,340 aiohttp.access            INFO    172.25.0.1 [29/Jan/2023:11:34:22 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:34:25,796 aiohttp.access            INFO    172.25.0.1 [29/Jan/2023:11:34:25 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:34:28,676 aiohttp.access            INFO    172.25.0.11 [29/Jan/2023:11:34:28 +0000] "GET /products/1/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:34:28,677 aiohttp.access            INFO    172.25.0.11 [29/Jan/2023:11:34:28 +0000] "GET /products/2/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:34:28,677 aiohttp.access            INFO    172.25.0.11 [29/Jan/2023:11:34:28 +0000] "GET /products/3/inventory HTTP/1.1" 200 174 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:34:28,677 aiohttp.access            INFO    172.25.0.11 [29/Jan/2023:11:34:28 +0000] "GET /products/4/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:34:28,678 aiohttp.access            INFO    172.25.0.11 [29/Jan/2023:11:34:28 +0000] "GET /products/17/inventory HTTP/1.1" 200 174 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:34:43,451 aiohttp.access            INFO    172.25.0.1 [29/Jan/2023:11:34:43 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:34:44,373 aiohttp.access            INFO    172.25.0.1 [29/Jan/2023:11:34:44 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:35:09,847 aiohttp.access            INFO    172.25.0.1 [29/Jan/2023:11:35:09 +0000] "GET /products/inventory HTTP/1.1" 200 321 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:35:19,249 aiohttp.access            INFO    172.25.0.1 [29/Jan/2023:11:35:19 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:36:59,930 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:36:59 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:37:10,314 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:37:10 +0000] "GET /products/inventory HTTP/1.1" 200 321 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:37:27,251 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:37:27 +0000] "DELETE /products/4/inventory HTTP/1.1" 204 131 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:37:32,505 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:37:32 +0000] "GET /products/inventory HTTP/1.1" 200 289 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:37:41,524 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:37:41 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:37:42,520 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:37:42 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:37:43,880 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:37:43 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:37:44,587 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:37:44 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:37:45,189 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:37:45 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:37:53,125 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:37:53 +0000] "GET /products/inventory HTTP/1.1" 200 289 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:37:57,781 aiohttp.access            INFO    172.26.0.11 [29/Jan/2023:11:37:57 +0000] "GET /products/1/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:37:57,782 aiohttp.access            INFO    172.26.0.11 [29/Jan/2023:11:37:57 +0000] "GET /products/2/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:37:57,783 aiohttp.access            INFO    172.26.0.11 [29/Jan/2023:11:37:57 +0000] "GET /products/3/inventory HTTP/1.1" 200 174 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:37:57,783 aiohttp.access            INFO    172.26.0.11 [29/Jan/2023:11:37:57 +0000] "GET /products/4/inventory HTTP/1.1" 200 172 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:37:57,784 aiohttp.access            INFO    172.26.0.11 [29/Jan/2023:11:37:57 +0000] "GET /products/17/inventory HTTP/1.1" 200 174 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:38:02,305 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:38:02 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:38:02,867 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:38:02 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:38:03,737 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:38:03 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:39:52,253 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:39:52 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:40:25,532 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:40:25 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:40:31,843 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:40:31 +0000] "GET /products/inventory HTTP/1.1" 200 289 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:40:52,846 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:40:52 +0000] "POST /products/inventory HTTP/1.1" 201 170 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:40:54,910 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:40:54 +0000] "POST /products/inventory HTTP/1.1" 400 208 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:40:58,355 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:40:58 +0000] "GET /products/inventory HTTP/1.1" 200 320 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:41:04,909 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:41:04 +0000] "DELETE /products/17/inventory HTTP/1.1" 404 212 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:41:08,724 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:41:08 +0000] "DELETE /products/4/inventory HTTP/1.1" 404 211 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:41:09,720 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:41:09 +0000] "DELETE /products/4/inventory HTTP/1.1" 404 211 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:41:15,637 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:41:15 +0000] "DELETE /products/4/inventory HTTP/1.1" 404 211 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:41:17,637 aiohttp.access            INFO    172.26.0.1 [29/Jan/2023:11:41:17 +0000] "DELETE /products/4/inventory HTTP/1.1" 404 211 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:42:22,361 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:42:22 +0000] "GET /products/inventory HTTP/1.1" 200 320 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:42:26,212 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:42:26 +0000] "DELETE /products/4/inventory HTTP/1.1" 404 211 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:42:27,830 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:42:27 +0000] "DELETE /products/4/inventory HTTP/1.1" 404 211 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:42:28,381 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:42:28 +0000] "DELETE /products/4/inventory HTTP/1.1" 404 211 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:42:28,942 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:42:28 +0000] "DELETE /products/4/inventory HTTP/1.1" 404 211 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:42:33,531 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:42:33 +0000] "DELETE /products/4/inventory HTTP/1.1" 404 211 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:42:34,014 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:42:34 +0000] "DELETE /products/4/inventory HTTP/1.1" 404 211 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:42:36,510 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:42:36 +0000] "GET /products/inventory HTTP/1.1" 200 320 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:42:40,139 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:42:40 +0000] "GET /products/inventory HTTP/1.1" 200 320 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:42:40,676 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:42:40 +0000] "GET /products/inventory HTTP/1.1" 200 320 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:44:16,005 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:44:16 +0000] "DELETE /products/4/inventory HTTP/1.1" 204 131 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:44:17,269 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:44:17 +0000] "DELETE /products/4/inventory HTTP/1.1" 404 211 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:44:21,137 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:44:21 +0000] "POST /products/inventory HTTP/1.1" 201 170 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:44:22,548 aiohttp.access            INFO    172.27.0.1 [29/Jan/2023:11:44:22 +0000] "POST /products/inventory HTTP/1.1" 400 208 "-" "PostmanRuntime/7.30.0"
+2023-01-29 11:45:13,111 aiohttp.access            INFO    172.27.0.11 [29/Jan/2023:11:45:13 +0000] "PATCH /products/inventory HTTP/1.1" 200 165 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:45:20,980 aiohttp.access            INFO    172.27.0.11 [29/Jan/2023:11:45:20 +0000] "GET /products/1/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:45:20,981 aiohttp.access            INFO    172.27.0.11 [29/Jan/2023:11:45:20 +0000] "GET /products/17/inventory HTTP/1.1" 200 174 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:45:20,982 aiohttp.access            INFO    172.27.0.11 [29/Jan/2023:11:45:20 +0000] "GET /products/2/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:45:20,982 aiohttp.access            INFO    172.27.0.11 [29/Jan/2023:11:45:20 +0000] "GET /products/3/inventory HTTP/1.1" 200 174 "-" "Python/3.10 aiohttp/3.8.3"
+2023-01-29 11:45:20,982 aiohttp.access            INFO    172.27.0.11 [29/Jan/2023:11:45:20 +0000] "GET /products/4/inventory HTTP/1.1" 200 173 "-" "Python/3.10 aiohttp/3.8.3"

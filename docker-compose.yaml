@@ -1,0 +1,168 @@
+version: "3.9"
+
+services:
+
+  api_app:
+    build: 
+      dockerfile: ./docker/app/Dockerfile
+    restart: always
+    env_file:
+      - .env
+    ports:
+    - "${PORT_BASE}:8000"
+    volumes:
+      - ./app:/var/www/app
+    command: python3 -m app.main
+    depends_on:
+      - api_inventory
+      - api_favorite
+      - api_cart
+      - rabbit
+
+  api_inventory:
+    build: 
+      dockerfile: ./docker/inventory/Dockerfile
+    restart: always
+    env_file:
+      - .env
+    expose:
+      - "${PORT_INVENTORY}"
+    ports:
+      - "${PORT_INVENTORY}:${PORT_INVENTORY}"
+    volumes:
+      - ./inventory:/var/www/inventory
+    # command: python3 -m inventory.main
+    depends_on:
+      db_inventory:
+        condition: service_started
+      rabbit:
+        # Дожидаемся пока rabbit корректно запустится (происходит не сразу)
+        condition: service_healthy
+
+  api_products:
+    build: 
+      dockerfile: ./docker/products/Dockerfile
+    restart: always
+    env_file:
+      - .env
+    expose:
+      - "${PORT_PRODUCTS}"
+    ports:
+      - "${PORT_PRODUCTS}:${PORT_PRODUCTS}"
+    volumes:
+      - ./products:/var/www/products
+    command: python3 -m products.main
+    depends_on:
+      - db_products
+
+  api_favorite:
+    build: 
+      dockerfile: ./docker/favorite/Dockerfile
+    restart: always
+    env_file:
+      - .env
+    expose:
+      - "${PORT_FAVORITE}"
+    ports:
+      - "${PORT_FAVORITE}:${PORT_FAVORITE}"
+    volumes:
+      - ./favorite:/var/www/favorite
+    command: python3 -m favorite.main
+    depends_on:
+      - db_favorite
+
+  api_cart:
+    build: 
+      dockerfile: ./docker/cart/Dockerfile
+    restart: always
+    env_file:
+      - .env
+    expose:
+      - "${PORT_CART}"
+    ports:
+      - "${PORT_CART}:${PORT_CART}"
+    volumes:
+      - ./cart:/var/www/cart
+    # command: python3 -m cart.main
+    depends_on:
+      - db_cart
+
+  rabbit:
+    image: rabbitmq:3.11.7-alpine
+    restart: always
+    healthcheck:
+    # Если код завершения равен 0, то проверка прошла
+      test: rabbitmq-diagnostics is_running || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 4s
+    env_file:
+      - .env
+    expose:
+      - "5672"
+    ports:
+      - "5672:5672"
+
+  db_inventory:
+    image: postgres:15.1-alpine
+    restart: on-failure
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB_INVENTORY}
+      - POSTGRES_USER=${POSTGRES_USER_INVENTORY}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD_INVENTORY}
+    expose:
+      - "${POSTGRES_PORT_INVENTORY}"
+    volumes:
+      - db_inventory_volume:/var/lib/postgresql/data
+
+  db_products:
+    image: postgres:15.1-alpine
+    restart: on-failure
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB_PRODUCTS}
+      - POSTGRES_USER=${POSTGRES_USER_PRODUCTS}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD_PRODUCTS}
+    expose:
+      - "${POSTGRES_PORT_PRODUCTS}"
+    volumes:
+      - db_products_volume:/var/lib/postgresql/data
+
+  db_favorite:
+    image: postgres:15.1-alpine
+    restart: on-failure
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB_FAVORITE}
+      - POSTGRES_USER=${POSTGRES_USER_FAVORITE}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD_FAVORITE}
+    expose:
+      - "${POSTGRES_PORT_FAVORITE}"
+    volumes:
+      - db_favorite_volume:/var/lib/postgresql/data
+
+  db_cart:
+    image: postgres:15.1-alpine
+    restart: on-failure
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB_CART}
+      - POSTGRES_USER=${POSTGRES_USER_CART}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD_CART}
+    expose:
+      - "${POSTGRES_PORT_CART}"
+    volumes:
+      - db_cart_volume:/var/lib/postgresql/data
+
+
+volumes:
+  db_inventory_volume:
+  db_favorite_volume:
+  db_cart_volume:
+  db_products_volume:
