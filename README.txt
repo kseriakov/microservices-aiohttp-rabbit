@@ -1,5 +1,5 @@
 ==Тестирование пропускной способности==
-ip route - получить ip 172.28.240.1
-wrk -t8  -d30s http://172.28.240.1:8000/users/1/products
+ip route - получить ip 
+wrk -t8  -d30s http://ip:8000/users/1/products
 
 
